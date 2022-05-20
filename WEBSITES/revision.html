@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Revision
+    </title>
+
+</head>
+<body>
+    <table border="1" cellpadding="4">
+        <tr><strong><th colspan="2">Today's option question<br><br><br></th><th>Young<br>citizen</th><th>Middle age</th><th>Senior<br>citien</th></tr>
+            <tr><td rowspan="3">Do you think the <br>government is doing <br>enough to fight <br>cyberattacks?</td>
+                <td>yes</td><td>60%</td><td>80%</td><td>50%</td>
+            <tr><td>No</td><td>35%</td><td>10%</td><td>0%</td>
+            <tr><td>Unsure</td><td>5%</td><td>10%</td><td>50%</td>   
+    </table>
+
+    <!--Javascript code to display the date-->
+   <p id="demo">date</p>
+   <button type="button" onclick="getElementById('demo').innerHTML=Date()">DATE</button>
+  
+<br><br><br>
+   <script>
+       num=prompt("Enter the number")
+       num=parseInt(num);
+       if(num%3==0){
+           alert("Kabarak");
+       }
+       else if(num%5==0){
+           alert("university");
+       }
+       else if(num%5==0 && num%3==0){
+           alert("Kabarak University");
+       }
+       else{
+           alert(num);
+       }
+   </script>
+</body>
+</html>
+

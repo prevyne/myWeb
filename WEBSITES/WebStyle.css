@@ -1,0 +1,57 @@
+body{
+		color: white;
+		background: url("Superman.jpg");
+		background-position: 100px 120px;
+		background-attachment: fixed;
+		background-size: 20%;
+		font-family: TimesNewRoman;
+		background-image: repeat;
+		background-color: white; 
+		opacity: 1.0;
+		
+	}
+	
+#table1{
+		background-image: url("Superman.jpg");
+		background-size:60%;
+		background-position: center;
+		padding-top: 100px;
+		padding-bottom: 200px;
+		padding-left: 100px;
+		padding-right: 100px;
+		
+		margin-bottom: 50px;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 50px;
+}
+		
+.topnav{
+	overflow: hidden;
+	background-color: maroon;
+}
+
+.topnav a{
+	float: right;
+	color:white;
+	text-align:center;
+	padding:18px 14px;
+	text-decoration:none;
+	font-size:20px;
+}
+
+.topnav a:hover{
+	background-color: SlateBlue;
+	color: black;
+}
+.topnav .active{
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+}
+
+.topnav a.icon{
+	display: none;
+}
+
+
